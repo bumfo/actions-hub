@@ -16,4 +16,4 @@ jobs:
     - uses: actions/checkout@v1
     - uses: bumfo/push-workspace@v1-release
       with:
-        myInput: 'Github!!!'
+        myInput: 'Github!!!!'
