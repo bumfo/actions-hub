@@ -5,7 +5,7 @@ on:
     branches:
     - trigger
   schedule:
-  - cron: * * * * *
+  - cron: '* * * * *'
 
 jobs:
   build:
