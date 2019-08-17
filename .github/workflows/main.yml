@@ -18,6 +18,7 @@ jobs:
     - name: Write README.md
       run: |
         echo Hello World >> README.md
+        echo >> README.md
     - uses: bumfo/push-workspace@v1-release
       with:
         ref: 'refs/heads/dist'
