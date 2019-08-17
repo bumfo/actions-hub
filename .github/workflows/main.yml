@@ -6,6 +6,7 @@ on:
     - trigger
   schedule:
   - cron: '0 0 * * *'
+  repository_dispatch: {}
 
 jobs:
   build:
